@@ -17,3 +17,17 @@ struct Movie {
     }
     
 }
+
+extension Movie: Equatable {
+    static func==(lhs: Movie, rhs: Movie) -> Bool {
+        if lhs.title != rhs.title {
+            return false
+        }
+        
+        if lhs.releaseDate != rhs.releaseDate {
+            return false
+        }
+        
+        return true
+    }
+}
