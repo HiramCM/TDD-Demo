@@ -17,6 +17,8 @@
 		5CF00C70273EE72E00B241D2 /* FilmFestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF00C6F273EE72E00B241D2 /* FilmFestUITestsLaunchTests.swift */; };
 		5CF00C7D273EF29C00B241D2 /* MovieStructTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF00C7C273EF29C00B241D2 /* MovieStructTest.swift */; };
 		5CF00C7F273EF33D00B241D2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF00C7E273EF33D00B241D2 /* Movie.swift */; };
+		5CF00C84273EF6EC00B241D2 /* MovieManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF00C83273EF6EC00B241D2 /* MovieManagerTest.swift */; };
+		5CF00C86273EF79400B241D2 /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF00C85273EF79400B241D2 /* MovieManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		5CF00C6F273EE72E00B241D2 /* FilmFestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmFestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5CF00C7C273EF29C00B241D2 /* MovieStructTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStructTest.swift; sourceTree = "<group>"; };
 		5CF00C7E273EF33D00B241D2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		5CF00C83273EF6EC00B241D2 /* MovieManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManagerTest.swift; sourceTree = "<group>"; };
+		5CF00C85273EF79400B241D2 /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				5CF00C7E273EF33D00B241D2 /* Movie.swift */,
+				5CF00C85273EF79400B241D2 /* MovieManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				5CF00C7C273EF29C00B241D2 /* MovieStructTest.swift */,
+				5CF00C83273EF6EC00B241D2 /* MovieManagerTest.swift */,
 			);
 			path = TestModels;
 			sourceTree = "<group>";
@@ -287,6 +293,7 @@
 			files = (
 				5CF00C51273EE72A00B241D2 /* ViewController.swift in Sources */,
 				5CF00C4D273EE72A00B241D2 /* AppDelegate.swift in Sources */,
+				5CF00C86273EF79400B241D2 /* MovieManager.swift in Sources */,
 				5CF00C7F273EF33D00B241D2 /* Movie.swift in Sources */,
 				5CF00C4F273EE72A00B241D2 /* SceneDelegate.swift in Sources */,
 			);
@@ -296,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF00C84273EF6EC00B241D2 /* MovieManagerTest.swift in Sources */,
 				5CF00C7D273EF29C00B241D2 /* MovieStructTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
